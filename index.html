@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable declear</title>
+
+    <style>
+
+        :root{
+            --primary-color: blueviolet;
+            --secondary-color: violet;
+        }
+
+        .div1{
+            background: var(--primary-color, blue);
+            width: 50px;
+            height: 50px;
+        }
+        .div2{
+            background: var(--secondary-color, blue);
+            width: 50px;
+            height: 50px;
+        }
+@media screen and (max-width: 600px) {
+    :root{
+            --primary-color: rgb(225, 0, 255);
+            --secondary-color: rgb(238, 130, 197);
+        }
+}
+    </style>
+
+
+
+</head>
+<body>
+    <div class="div1">
+
+    </div>
+    
+    <div class="div2">
+
+    </div>
+    <div class="div3">
+
+    </div>
+    <div class="div4">
+
+    </div>
+
+</body>
+</html>
